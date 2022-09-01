@@ -1,0 +1,13 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+      "Name": "bogdangligor/ci_cd_workshop:latest",
+      "Update": "true"
+    },
+    "Ports": [
+      {
+        "ContainerPort": "3000"
+      }
+    ],
+    "Logging": "/var/log/nginx"
+  }
